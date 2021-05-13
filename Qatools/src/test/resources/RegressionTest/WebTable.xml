@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="WebTableTestSuit" verbose="1" thread-count="1">
+
+	<test name="VerifyWebtableElement Test">
+		<parameter name="fname" value="Aditya"></parameter>
+		<parameter name="lname" value="Shastri"></parameter>
+		<parameter name="age" value="28"></parameter>
+		<parameter name="email" value="demo@mail.com"></parameter>
+		<parameter name="salary" value="52100"></parameter>
+		<parameter name="department" value="TestDept1"></parameter>
+		
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.toolsqa.WebTable.Validation.VerifyWebTable">
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

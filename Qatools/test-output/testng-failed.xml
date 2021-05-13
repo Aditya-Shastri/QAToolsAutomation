@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [WebTableTestSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="VerifyWebtableElement Test(failed)">
+    <parameter name="fname" value="Aditya"/>
+    <parameter name="lname" value="Shastri"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="salary" value="52100"/>
+    <parameter name="department" value="TestDept1"/>
+    <parameter name="age" value="28"/>
+    <parameter name="email" value="demo@mail.com"/>
+    <classes>
+      <class name="com.toolsqa.WebTable.Validation.VerifyWebTable">
+        <methods>
+          <include name="webtable" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.toolsqa.WebTable.Validation.VerifyWebTable -->
+    </classes>
+  </test> <!-- VerifyWebtableElement Test(failed) -->
+</suite> <!-- Failed suite [WebTableTestSuit] -->
